@@ -58,6 +58,12 @@ li {
     height: 22px;
     font-family: 'Lato', sans-serif;
 }
+
+input:hover {
+    background-color: rgb(197, 197, 197);
+    transform: scale(1.1);
+}
+
 .Portfolio li:first-child input {
     margin-left: 0px;
     width: 30px;    
@@ -207,4 +213,8 @@ li {
 .AboutUs .personinf .personcontact a {
     margin-left: 5px;
 
+}
+
+.AboutUs .personcontact img:hover {
+    transform: scale(1.2);
 }
